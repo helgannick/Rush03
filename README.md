@@ -1,13 +1,16 @@
-#Rush - Impressão de Retângulos
-##Este projeto contém um programa em C que imprime um retângulo na tela utilizando caracteres específicos. O retângulo é definido por suas dimensões (largura e altura) fornecidas como parâmetros.
+# Rush - Impressão de Retângulos
 
-##Funções Principais:
+## Este projeto contém um programa em C que imprime um retângulo na tela utilizando caracteres específicos. O retângulo é definido por suas dimensões (largura e altura) fornecidas como parâmetros.
 
-###ft_putchar
+# Funções Principais:
+
+### ft_putchar
+
 void	ft_putchar(char c);
 Função auxiliar que imprime um caractere no terminal.
 
-###print_line
+### print_line
+
 void	print_line(char left, char middle, char right, int length);
 Função que imprime uma linha com caracteres específicos.
 
@@ -16,7 +19,8 @@ middle: Caractere para o meio da linha.
 right: Caractere para o fim da linha.
 length: Comprimento da linha.
 
-###rush
+### rush
+
 void	rush(int x, int y);
 Função principal que coordena a impressão do retângulo.
 
