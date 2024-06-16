@@ -1,0 +1,24 @@
+Explicação
+Função ft_putchar:
+
+Essa função permanece a mesma, imprimindo um caractere no terminal usando write.
+
+#Função print_line:
+left: Caractere para o início da linha.
+middle: Caractere para o meio da linha.
+right: Caractere para o fim da linha.
+length: Comprimento da linha.
+A função imprime uma linha começando com left, seguida por middle repetido (length - 2) vezes, e terminando com right.
+A nova linha é adicionada no final.
+
+Função rush:
+
+x: Largura do retângulo.
+y: Altura do retângulo.
+Imprime a linha superior se y for maior que 0.
+Utiliza um loop while para imprimir as linhas do meio.
+Imprime a linha inferior se y for maior que 1.
+Função main:
+
+Chama rush(5, 3) para testar a funcionalidade com os parâmetros fornecidos.
+Este código é mais simples e fácil de entender, utilizando apenas a função while e a função auxiliar print_line para reduzir a duplicação de código.
